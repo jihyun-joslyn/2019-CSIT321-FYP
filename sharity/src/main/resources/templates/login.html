@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sharity</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="image/icon.png">
+    <style>
+        body {
+            background-image: url("image/1.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        input{
+            border-radius: 5px;
+        }
+        input[type=submit] {
+            width: 55%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article class=" w3-container">
+        <div class="w3-row w3-display-middle" style="width:100%">
+            <div class="w3-col s1 m1 3">&nbsp;</div>
+            <div class="w3-col s10 m6 l3">
+                <form action="/admin/adminLogin">
+                    <div class="w3-card-4 w3-light-gray w3-round-xlarge w3-center w3-padding-16">
+                        <div class="w3-row">
+                            <br>
+                            <br>
+                            <div class="w3-col s4 m4 l4">
+                                <p class="w3-right-align">User Name: </p>
+                            </div>
+                            <div class="w3-col s8 m8 l8">
+                                <p class="w3-left-align"><input type="text" id="i_name" name="username" /></p>
+                            </div>
+                        </div>
+                        <div class="w3-row">
+                            <div class="w3-col s4 m4 l4">
+                                <p class="w3-right-align">Password: </p>
+                            </div>
+                            <div class="w3-col s8 m8 l8">
+                                <p class="w3-left-align"><input type="password" id="i_password" name="password" /></p>
+                            </div>
+                        </div>
+                        <div class="w3-row">
+                            <div class="w3-col s4 m4 l4">&nbsp;</div>
+                            <div class="w3-col s8 m8 l8">
+                                <p class="w3-left-align">
+                                    <input type="submit" id="btn_submit" name="btn_submit" value="Login"/>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w3-row">
+                            <div class="w3-col s12">
+                                <p class="w3-center" id="div_result">&nbsp;</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </article>
+
+</body>
+
+</html>
