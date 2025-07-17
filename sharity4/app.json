@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "sharity",
+    "slug": "sharity-slug",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "com.uowfyp.sharity",
+      "buildNumber": "1.1.0"
+    },
+    "android": {
+      "package": "com.uowfyp.sharity",
+      "versionCode": 1
+    },
+    "description": "-Final Year Project of UOW College Hong Kong \n-android app project\n-Team 5"
+  }
+}
